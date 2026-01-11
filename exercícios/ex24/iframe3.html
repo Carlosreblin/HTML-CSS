@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            display: block;
+            margin: auto;
+            width: 95vw;
+            height: 400px;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.536);
+            transition: 0.5s;
+        }
+        iframe#tela:hover{
+            scale: 1.01;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed nostrum animi assumenda ipsam reprehenderit odit. Sint atque quibusdam non incidunt enim perferendis, nostrum asperiores facere dicta rem corrupti aspernatur exercitationem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo voluptatum harum nihil possimus excepturi accusantium nobis quo optio, repellat, quidem quod consectetur. Asperiores mollitia tempore alias iste expedita vero.
+    </p>
+    <ul>
+        <li><a href="paginas-extras/pag1.html" target="frame">página 1</a></li>
+        <li><a href="paginas-extras/pag2.html" target="frame">página 2</a></li>
+        <li><a href="paginas-extras/pag3.html" target="frame">página 3</a></li>
+    </ul>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis voluptas, voluptatibus ipsum consequuntur reiciendis ducimus aut, eius perspiciatis magnam corrupti tempora recusandae incidunt modi? Veritatis delectus obcaecati excepturi sapiente! Dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi ut, aperiam excepturi incidunt rerum rem, sit libero quis reprehenderit quaerat tempore est quae possimus praesentium, nostrum repudiandae culpa provident?
+    </p>
+    <iframe src="" id="tela" name="frame" srcdoc="<h1>Escolha uma das opções a Acima</h1>">
+        <p>Infelismente seu navegador não é compatível com isso.</p>
+    </iframe>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio alias similique suscipit maxime accusamus fugiat omnis dignissimos impedit doloribus maiores, natus velit provident. Error saepe earum excepturi? Earum, corrupti velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum nulla harum nostrum molestiae mollitia repudiandae! Cupiditate maxime ducimus similique veniam, esse nobis sequi commodi voluptatem, recusandae beatae perspiciatis voluptate.
+    </p>
+</body>
+</html>

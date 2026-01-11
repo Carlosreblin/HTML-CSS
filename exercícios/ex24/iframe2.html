@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 800px;
+            height: 400px;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.464);
+        }
+        .erro{
+            background-color: red;
+            color: white;
+            padding: 3px;
+            transition: 0.5s;
+        }
+        .erro:hover{
+            padding: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste com iframe</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid voluptas quibusdam, fuga numquam accusamus tempora eum soluta dolore reprehenderit possimus autem ea temporibus sequi blanditiis natus porro debitis aspernatur cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum optio repudiandae ipsum vitae nihil aperiam ducimus provident cumque fuga, qui atque. Quo repellendus dolores ad distinctio quasi maiores in asperiores.
+    </p>
+
+    <iframe src="pag1.html" frameborder="0">
+        <p class="erro">Infelizmente seu navegador não é compatível</p>
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, error eligendi eius ipsam dignissimos delectus tenetur reprehenderit accusantium, rem temporibus, minus molestiae nobis modi cupiditate asperiores! Delectus autem cupiditate labore? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quidem ipsam dignissimos. Qui quibusdam inventore deleniti officiis repellendus vitae aut sint incidunt voluptates. Perspiciatis libero maxime placeat! Atque, libero asperiores.
+    </p>
+</body>
+</html>
