@@ -54,7 +54,6 @@ menu a{
     background-color: rgb(78, 78, 78);
     color: white;
     border-radius: 5px;
-    width: 97vw;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.698);
     transition: 0.5s;
 }
