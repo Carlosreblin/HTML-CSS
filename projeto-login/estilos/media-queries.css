@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    section#login{
+        width: 80vw;
+    }
+
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulário{
+        float: right;
+        width: 65%;
+    }
+
+    div#formulário > h1{
+        font-size: 2em;
+        margin: 20px 0;
+    }
+
+    div#formulário > p{
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    form > fieldset{
+        height: 140px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    div.campo > input{
+        height: 40px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width:992px) {
+    section#login{
+        width: 950px;
+    }
+    
+    div#imagem{
+        float: left;
+        width: 45%;
+        height: 100%;
+    }
+
+    div#formulário{
+        float: right;
+        width: 55%;
+        height: 100%;
+    }
+
+    div#formulário > h1{
+        font-size: 2em;
+        margin: 20px 0;
+    }
+
+    div#formulário > p{
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    form > fieldset{
+        height: 140px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    div.campo > input{
+        height: 40px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:lightgray;
+    --cor2:rgb(110, 110, 110);
+    --cor3:rgb(61, 61, 61);
+    --cor4:#1d1d1d;
+}
+
+*{
+    font-family: system-ui,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black linear-gradient(to bottom, var(--cor4),var(--cor3),var(--cor2),var(--cor1)) no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    height: 515px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+
+    transition: width 0.5s,height 0.5s;
+    transition-timing-function: ease;
+}
+
+div#imagem{
+    display: block;
+    height: 150px;
+    background: black url('../imagens/pexels-eran-design-2158190390-35215428.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+div#formulário > h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div#formulário > p{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+div.campo{
+    margin: auto;
+    margin-top: 5px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+
+}
+
+div.campo > i{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+div.campo > input{
+    display:block;
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form label{
+    display: none;
+}
+
+form > fieldset{
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 2px;
+    width: 80%;
+    height: 80px;
+    border: 2px solid var(--cor4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form > input[type=submit]{
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 1em;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--cor1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form > input[type=submit]:hover{
+    background-color: var(--cor4);
+    color: white;
+    font-weight: bold;
+    scale: 1.05;
+}
+
+form >a.botao{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 0.8em;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid var(--cor1);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form > a.botao:hover{
+    border-color: var(--cor4);
+    font-weight: bold;
+    font-weight: bold;
+    scale: 1.05;
+}
+
+form > a.botao > i{
+    font-size: 0.8em;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulário">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.</p>
+                <form method="post" autocomplete="on">
+                    <fieldset>
+                        <div class="campo">
+                            <i class="material-icons">person</i>
+                            <label for="ilogin">login:</label>
+                            <input type="email" name="login" id="ilogin" placeholder="user@gmail.com"
+                                autocomplete="email">
+                        </div>
+                        <div class="campo">
+                            <i class="material-icons">vpn_key</i>
+                            <label for="isen">Senha:</label>
+                            <input type="password" name="sen" id="isen" placeholder="ggf5654!"
+                                autocomplete="current-password" minlength="8" maxlength="16">
+                        </div>
+                    </fieldset>
+
+                    <input type="submit" value="Entrar">
+                    <a class="botao" href="esqueci.html">Esqueci a senha <i class="material-icons">mail</i></a>
+                </form>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
