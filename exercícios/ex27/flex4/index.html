@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        /*
+        justify-content:
+            -flex-start = gruda no main start e deixa o espaço livre no final
+            -flex-end = fruda no main end e deixa o espaço no inicio
+            -center = gruda no meio e distribui o espço livre no inicio e fim de maneira igual
+            -space-between = gruda o primeiro tem no main start, o ultimo no main end e o restante no meio distribuindo o espaço igualmente entre os itens
+            -space-envenly = distribui o espaço livre de uma forma em que o espço antes e depois de cada item seja igual
+            -space-around = divide o espaço interno do container pelo número de itens e centraliza os itens dentro de cada um desses espaços
+        alig-itens:
+            -stretch = estica os elementos
+            -flex-start = cola os itens no cross start e deixa o espaço no final
+            -flex-end = cola os itens no cross end e deixa o espaço no ínicio
+            -center = cola os itens no meio e distribui o espaço igualmente no ínio e fim
+        */
+        div.conteiner{
+            background-color: lightsalmon;
+            height: 300px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            align-items:center;
+        }
+
+        div.item{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
