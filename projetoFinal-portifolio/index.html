@@ -14,19 +14,22 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href=""><i class="fa-solid fa-house"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href=""><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
-    </header><script src="https://kit.fontawesome.com/7a6ae487bb.js" crossorigin="anonymous"></script>
+    </header>
+    <script src="https://kit.fontawesome.com/7a6ae487bb.js" crossorigin="anonymous"></script>
     <main>
         <section id="ficha">
             <img src="imagens/Carlos-perfil.jpg" alt="" class="foto">
             <h1>Carlos E. Reblin</h1>
-            <p>Sou estudante do IFC campus Ibirama. Cursando o Ensino Médio com curso técnico integrado em Informática. Gosto muito da área e estou estudando para buscar me tornar um programador full stack bem sucedido no futuro.</p>
+            <p>Sou estudante do IFC campus Ibirama. Cursando o Ensino Médio com curso técnico integrado em Informática.
+                Gosto muito da área e estou estudando para buscar me tornar um programador full stack bem sucedido no
+                futuro.</p>
             <div id="social">
                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 <a href=""><i class="fa-brands fa-github"></i></a>
@@ -98,15 +101,80 @@
 
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2025 - em andamento</p>
+                        <h3 class="instituicao">IFC campus Ibirama</h3>
+                        <p class="titulacao">Ensino médio com técnico integrado em Informática</p>
+                    </div>
+                </div>
             </article><!--Fim article#formacao-->
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto">
+                        <img src="imagens/projeto-01-videos.jpg" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p>2026</p>
+                            <h3>Projeto de vídeos</h3>
+                            <p>Projeto construído para treinar a inserção de vídeos em nosso site.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                            </details>
+                        </div>
+
+                    </div>
+                    <div class="projeto">
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 2" class="foto">
+                        <div class="projeto-info">
+                            <p>2026</p>
+                            <h3>Projeto - cordel</h3>
+                            <p>Projeto construído para treinar aplicação de eito paralax em um site.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <img src="imagens/projeto-03-android.jpg" alt="Projeto 3" class="foto">
+                        <div class="projeto-info">
+                            <p>2026</p>
+                            <h3>Projeto - cordel</h3>
+                            <p>Projeto construído para treinar construção de um site usando tags semanticas</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <img src="imagens/projeto-04-links.jpg" alt="Projeto 4" class="foto">
+                        <div class="projeto-info">
+                            <p>2026</p>
+                            <h3>Projeto - links</h3>
+                            <p>Projeto construído para treinar ancoras</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <img src="imagens/projeto-05-login.jpg" alt="Projeto 5" class="foto">
+                        <div class="projeto-info">
+                            <p>2026</p>
+                            <h3>Projeto - login</h3>
+                            <p>Projeto construído para treinar aplicação de formulários e media queries</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                            </details>
+                        </div>
+                    </div>
+                </div>
             </article><!--Fim article#projetos-->
         </section>
     </main>
     <footer>
-
+        Portfólio
     </footer>
     <script src="scripts/script.js"></script>
 </body>
