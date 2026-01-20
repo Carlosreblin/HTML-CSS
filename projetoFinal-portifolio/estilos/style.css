@@ -37,7 +37,7 @@ body{
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
-  transition: backgroud-color 2s, color 2s;
+  transition: 2s;
 }
 
 header{
