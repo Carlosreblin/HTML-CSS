@@ -23,11 +23,21 @@
   --fundo-card:#ffffff;
 }
 
+body.escuro{
+  --fundo-principal:#000000;
+  --texto:#dadada;
+  --texto-inverso:#ffffff;
+  --destaque:#0077ff;
+  --destaque-inverso:#5bb5ff;
+  --fundo-card:#262626;
+}
+
 body{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: backgroud-color 2s, color 2s;
 }
 
 header{
